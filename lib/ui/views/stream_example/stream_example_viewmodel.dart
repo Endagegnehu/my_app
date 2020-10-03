@@ -10,6 +10,7 @@ class StreamBuildViewModel extends StreamViewModel<int> {
 
   void swapSourece() {
     _otherSource = !_otherSource;
+    notifySourceChanged();
   }
 
   Stream<int> epochUpdate() async* {
