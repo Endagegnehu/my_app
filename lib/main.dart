@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/app/locatore.dart';
 import 'package:my_app/app/route.gr.dart';
+import 'package:my_app/ui/views/future_example/future_example_view.dart';
 import 'package:my_app/ui/views/reactive_example/reactive_example_view.dart';
+import 'package:my_app/ui/views/stream_example/stream_example_view.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 void main() {
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       // initialRoute: Routes.startUpView,
-      home: ReactiveExampleView(),
+      home: StreamExampleView(),
       onGenerateRoute: Routers().onGenerateRoute,
       navigatorKey: locatore<NavigationService>().navigatorKey,
     );
