@@ -27,7 +27,7 @@ GetIt $initGetIt(
   return get;
 }
 
-class _$ThirdPartyServicesModelue extends ThirdPartyServicesModelue {
+class _$ThirdPartyServicesModelue extends ThirdPartyServicesModule {
   @override
   DialogService get dialogService => DialogService();
   @override

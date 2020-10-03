@@ -8,7 +8,7 @@ import 'package:my_app/ui/views/startup/startup_view.dart';
     MaterialRoute(page: HomeView),
   ],
 )
-class $Router {
+class $Routers {
   StartUpView startUpViewRoute;
   HomeView homeViewRoute;
 }
