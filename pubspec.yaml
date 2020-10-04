@@ -39,6 +39,7 @@ dependencies:
   stacked_hooks: null
   flutter_hooks: null
   observable_ish: ^2.1.4
+  image_picker: ^0.6.7+11
 
 dev_dependencies:
   flutter_test:

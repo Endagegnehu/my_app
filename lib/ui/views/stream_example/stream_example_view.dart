@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/ui/views/future_example/future_example_viewmodel.dart';
 import 'package:my_app/ui/views/stream_example/stream_example_viewmodel.dart';
 import 'package:stacked/stacked.dart';
 
