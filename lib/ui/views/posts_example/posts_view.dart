@@ -16,6 +16,7 @@ class PostsView extends StatelessWidget {
               )
             : !model.hasError
                 ? ListView.builder(
+                    itemCount: model.data.length,
                     itemBuilder: (context, index) => Container(
                           height: 50,
                           padding: const EdgeInsets.only(left: 35),
